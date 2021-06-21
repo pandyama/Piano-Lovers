@@ -4,16 +4,19 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { LessonsComponent } from './lessons/lessons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    LessonsComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path: '', component: HomeComponent}
+      {path: '', component: HomeComponent},
+      {path: 'lessons', component: LessonsComponent}
     ])
   ],
   providers: [],
