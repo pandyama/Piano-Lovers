@@ -1,0 +1,35 @@
+div {
+  display: flex;
+  justify-content: center;
+}
+
+mat-card-title {
+  font-weight: 700;
+}
+
+.example-card {
+  margin: 8px;
+  min-width: 300px;
+  border-style: none;
+  border-radius: 4px;
+  background-color: #b1b1b1;
+}
+
+.card-content {
+  margin: 8px;
+  font-weight: bolder;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(49, 49, 49);
+}
+
+span {
+  display: block;
+}
