@@ -13,34 +13,38 @@ div {
   background-color: #ebebeb;
 }
 
-mat-card-actions{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+mat-card-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-mat-card-subtitle{
-    font-weight: bold;
-    font-size: 1.2em;
+mat-card-subtitle {
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
-mat-card-title{
-    font-weight: bold;
-    font-size: 1em;
+mat-card-title {
+  font-weight: bold;
+  font-size: 1em;
 }
 
-p{
-    font-weight: bold;
-    font-size: 1.2em;
-
+p {
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
-button{
-    font-size: 1.2em;
+button {
+  font-size: 1.2em;
 }
 
-.example-header-image {
-  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
-  background-size: cover;
+@media screen and (max-width: 500px) {
+  .example-card {
+    margin: 5px;
+    min-width: 30%;
+    border-style: none;
+    border-radius: 4px;
+    background-color: #ebebeb;
+  }
 }

@@ -61,3 +61,34 @@ p {
 span {
   display: block;
 }
+
+@media screen and (max-width: 500px) {
+  .example-card {
+    margin: 8px;
+    min-width: 30%;
+    border-style: none;
+    border-radius: 4px;
+    background-color: #e4e4e4;
+  }
+
+  .card-content-a,
+  .card-content-b {
+    margin: 5px;
+    font-weight: bolder;
+  }
+
+  .other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
