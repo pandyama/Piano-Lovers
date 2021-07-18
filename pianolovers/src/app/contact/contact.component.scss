@@ -1,0 +1,25 @@
+.message {
+    display: flex;
+    justify-content: center;
+    h2 {
+      font-family: Gafata;
+      font-size: 45px;
+      color: black;
+      letter-spacing: 0.1em;
+      text-align: center;
+      margin: 40px auto;
+      line-height: 145%;
+    }
+  
+    p {
+      font-family: Gafata;
+      font-size: 35px;
+      color: black;
+      letter-spacing: 0.01em;
+      text-align: center;
+      margin: 40px auto;
+      line-height: 105%;
+      color: rgb(255, 0, 0);
+    }
+  }
+  
