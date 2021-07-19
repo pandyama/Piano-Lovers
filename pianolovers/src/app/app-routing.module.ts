@@ -6,12 +6,14 @@ import { LessonsComponent } from './lessons/lessons.component';
 import { MaterialModule } from './material/material.module';
 import { EventsComponent } from './events/events.component';
 import { ContactComponent } from './contact/contact.component';
+import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'lessons', component: LessonsComponent},
     {path: 'events', component: EventsComponent},
-    {path: 'contact', component: ContactComponent}
+    {path: 'contact', component: ContactComponent},
+    {path: 'signup', component: SignupComponent}
 ]
 
 @NgModule({
@@ -23,6 +25,7 @@ const routes: Routes = [
   declarations: [HomeComponent, 
                 LessonsComponent,
                 EventsComponent,
-                ContactComponent]
+                ContactComponent,
+                SignupComponent]
 })
 export class AppRoutingModule { }
